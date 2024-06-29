@@ -2,14 +2,13 @@
 <html>
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7GCMCZYY6E"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-7GCMCZYY6E');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7GCMCZYY6E"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-7GCMCZYY6E');
+    </script>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
@@ -21,62 +20,83 @@
         h1 {
             font-size: 350%;
             text-align: center;
+            border-bottom: 1px solid gray;
+            margin: 0;
+            padding: 20px;
         }
         .saw {
             color: palevioletred;
         }
+        ul {
+            border-right:1px solid gray;
+            width: 120px;
+            margin: 0;
+            padding: 30px;
+        }
+        body {
+            margin: 0;
+        }
+        #grid {
+            display: grid;
+            grid-template-columns: 183px 1fr;
+        }
     </style>
-<title>데스티니-레이드</title>
-<meta charset="utf-8">
+    <title>데스티니-레이드</title>
+    <meta charset="utf-8">
 </head>
 <body>
     <h1><a href="index.html" class="saw">데스티니 정보 사이트</a></h1>
-
-    <h2><a href="raid.html" class="saw">레이드</a></h2>
-<ul>
-    <li><h3><a href="leviathan.html" class="saw">리바이어던</a></h3> </li>
-    <li><h3><a href="lastwish.html" class="saw">마지막소원</a> </h3></li>
-    <li><h3><a href="deepstone.html" class="saw">딥스톤 무덤</a></h3></li>
-</ul>
-<h2>레이드</h2>
-<strong>고난도의 6인 협동 모드. 데스티니의 PvE 엔드 컨텐츠중 하나이다.<br><br>
-
-여타 활동들이 구체적인 클리어 목표 및 진행 경로를 알려주는 반면 레이드는 네임드당 대전제 하나만 던져주고 추가 안내사항은 주어지지 않는다.<br><br>
-때문에 헤딩을 하거나 공략법을 숙지하고 도전하는게 필수. <br><br>
-클리어를 위해서는 모든 플레이어들 사이의 지속적이고 실시간 소통이 필요하기에 랜덤 매치메이킹을 지원하지 않고 마이크 사용이 필수적으로 요구된다. <br><br>
-다만 전작과 달리 혼자 플레이하는 유저들도 다른 클랜원들의 도움을 받아서 레이드를 즐길 수 있도록 가이드 게임 시스템을 구축해두었다.<br><br>
-레이드 클리어 보상은 각 네임드 클리어마다 획득할 수 있으며 이외에 점프맵이나 패스맵 구간마다 있는 숨겨진 상자와 각 레이드별 고유 경이 보상을 최종 네임드 클리어 이후로 랜덤 획득할 수 있다. <br><br>
-또한 각 보상을 획득할 때마다 일부를 제외하면 정복의 전리품이라는 소모품을 획득하는데, <br><br>
-이걸 모아서 빛의 저편 이후 레이드를 최종 클리어하고 무기나 방어구를 구매하거나 탑의 경이 보관소에서 특정 장비를 획득할 수 있다.<br><br>
-마녀 여왕 확장팩 이후로 로테이션 시스템이 추가되어 매 주마다 특정 레이드는 보상 반복 획득이 가능해진다. <br><br>
-이는 랜덤 획득 경이 장비도 포함. 또한 최종 네임드 클리어 시 최고급 장비도 별개로 지급되기 때문에 이전 확장팩 레이드라도 플레이할 이유가 생겼다.<br><br>
-레이드들의 진입장벽 자체는 그리 높지 않다. <br><br>
-대부분의 공략이 퍼즐 형식이고 에임보다는 소통과 센스가 더 요구되기 때문. <br><br>
-실제로 모든 보스들의 패턴은 무적기 → 퍼즐로 무적기 해제 → 딜타임 → 반복인데, 딜타임에는 일부 보스를 제외하면 대놓고 약점을 보여주면서 "날 때려줍쇼" <br><br>
-하고 있기 때문에 FPS 게임 치고는 PVE 한정으로 에임이 크게 필요치 않다. <br><br>간단한 퍼즐을 팀원과 소통하며 풀 수 있을 정도의 실력이면 누구나 깰 수 있는 수준.<br><br>
-다만 레이드에서 나오는 적의 공격력이 상당히 거세니 만만하게 보진 말자.<br><br></strong>
-<img src="raid.jpg" width="300">
-<p>
-    <div id="disqus_thread"></div>
-    <script>
-        /**
-        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-        /*
-        var disqus_config = function () {
-        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        */
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://my-web-zt2kbsc6ax.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</p>
-<script id="dsq-count-scr" src="//my-web-zt2kbsc6ax.disqus.com/count.js" async></script>
+    
+    <div id="grid">
+        <div>
+            <ul>
+                <h2><a href="raid.html" class="saw">레이드</a></h2>
+                <li><h3><a href="leviathan.html" class="saw">리바이어던</a></h3> </li>
+                <li><h3><a href="lastwish.html" class="saw">마지막소원</a> </h3></li>
+                <li><h3><a href="deepstone.html" class="saw">딥스톤 무덤</a></h3></li>
+            </ul>
+        </div>
+        <div>
+            <h2>레이드</h2>
+            <strong>고난도의 6인 협동 모드. 데스티니의 PvE 엔드 컨텐츠중 하나이다.<br><br>
+            여타 활동들이 구체적인 클리어 목표 및 진행 경로를 알려주는 반면 레이드는 네임드당 대전제 하나만 던져주고 추가 안내사항은 주어지지 않는다.<br><br>
+            때문에 헤딩을 하거나 공략법을 숙지하고 도전하는게 필수. <br><br>
+            클리어를 위해서는 모든 플레이어들 사이의 지속적이고 실시간 소통이 필요하기에 랜덤 매치메이킹을 지원하지 않고 마이크 사용이 필수적으로 요구된다. <br><br>
+            다만 전작과 달리 혼자 플레이하는 유저들도 다른 클랜원들의 도움을 받아서 레이드를 즐길 수 있도록 가이드 게임 시스템을 구축해두었다.<br><br>
+            레이드 클리어 보상은 각 네임드 클리어마다 획득할 수 있으며 이외에 점프맵이나 패스맵 구간마다 있는 숨겨진 상자와 각 레이드별 고유 경이 보상을 최종 네임드 클리어 이후로 랜덤 획득할 수 있다. <br><br>
+            또한 각 보상을 획득할 때마다 일부를 제외하면 정복의 전리품이라는 소모품을 획득하는데, <br><br>
+            이걸 모아서 빛의 저편 이후 레이드를 최종 클리어하고 무기나 방어구를 구매하거나 탑의 경이 보관소에서 특정 장비를 획득할 수 있다.<br><br>
+            마녀 여왕 확장팩 이후로 로테이션 시스템이 추가되어 매 주마다 특정 레이드는 보상 반복 획득이 가능해진다. <br><br>
+            이는 랜덤 획득 경이 장비도 포함. 또한 최종 네임드 클리어 시 최고급 장비도 별개로 지급되기 때문에 이전 확장팩 레이드라도 플레이할 이유가 생겼다.<br><br>
+            레이드들의 진입장벽 자체는 그리 높지 않다. <br><br>
+            대부분의 공략이 퍼즐 형식이고 에임보다는 소통과 센스가 더 요구되기 때문. <br><br>
+            실제로 모든 보스들의 패턴은 무적기 → 퍼즐로 무적기 해제 → 딜타임 → 반복인데, 딜타임에는 일부 보스를 제외하면 대놓고 약점을 보여주면서 "날 때려줍쇼" <br><br>
+            하고 있기 때문에 FPS 게임 치고는 PVE 한정으로 에임이 크게 필요치 않다. <br><br>간단한 퍼즐을 팀원과 소통하며 풀 수 있을 정도의 실력이면 누구나 깰 수 있는 수준.<br><br>
+            다만 레이드에서 나오는 적의 공격력이 상당히 거세니 만만하게 보진 말자.<br><br></strong>
+            <img src="raid.jpg" width="300">
+        </div>
+    </div>
+    <p>
+        <div id="disqus_thread"></div>
+        <script>
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://my-web-zt2kbsc6ax.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </p>
+    <script id="dsq-count-scr" src="//my-web-zt2kbsc6ax.disqus.com/count.js" async></script>
 </body>
 </html>

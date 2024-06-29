@@ -1,74 +1,101 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7GCMCZYY6E"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-7GCMCZYY6E');
-</script>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        a {
-            color: cornflowerblue;
-            text-decoration: none;
-        }
-        h1 {
-            font-size: 350%;
-            text-align: center;
-        }
-        .saw {
-            color: palevioletred;
-        }
-    </style>
-<title>데스티니-레이드-리바이어던</title>
-<meta charset="utf-8">
-</head>
-<body>
-    <h1><a href="index.html" class="saw">데스티니 정보 사이트</a></h1>
-
-    <h2><a href="raid.html" class="saw">레이드</a></h2>
-<ul>
-    <li><h3><a href="leviathan.html" class="saw">리바이어던</a></h3> </li>
-    <li><h3><a href="lastwish.html" class="saw">마지막소원</a> </h3></li>
-    <li><h3><a href="deepstone.html" class="saw">딥스톤 무덤</a></h3></li>
-</ul>
-<h2>리바이어던</h2><a><iframe width="560" height="315" src="https://www.youtube.com/embed/6N-mo_m3DvA?si=pG5sgKfxIqT5oIqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
-<strong><p>데스티니 가디언즈 본편에 수록된 레이드이자 목적지. 데스티니 시리즈의 첫 기갑단 레이드이기도 하다.<br><br>
-해당 문서에서 소개되는 레이드들은 모두 함선 리바이어던 안에서 벌어지는 전투이기 때문에 리바이어던에서만 발동하는 개조부품들과 고스트 의체가 모두 적용된다.<br><br>
- 단 도전자의 의체는 슬픔의 왕관에선 적용되지 않는다.<br><br>
- 본 레이드의 컨셉은 스토리 미션에서 도미누스 가울을 쓰러뜨린 수호자들이 기갑단의 전 황제인 칼루스의 함선 리바이어던으로 초대를 받아 그가 주는 여러 시련들을 통과하는 것이다.<br><br>
-컬렉터즈 에디션에 동봉된 기갑단 책자의 내용은 칼루스가 미래에 가울을 쓰러뜨릴 누군가에게 가울을 포함해 자신을 배신한 반역자들에 대해 설명하고,<br><br>
-이들을 처단하면 자신이 어마어마한 부와 명예를 하사하겠다고 말하는 내용이다. <br><br>
-그리고 마지막에는 반역자들을 쓰러뜨린 황제의 용사를 궁정, 투기장, 정원, 무기고로 가득한 함선으로 초대할 것이며 그들이 자신의 상을 받을 자격이 있을지 시험해볼 것이라고 써져 있다.<br><br></p>
-</strong>
-<img src="leviathan.jpg" width="300">
-<p>
-    <div id="disqus_thread"></div>
-    <script>
-        /**
-        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-        /*
-        var disqus_config = function () {
-        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        */
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://my-web-zt2kbsc6ax.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</p>
-<script id="dsq-count-scr" src="//my-web-zt2kbsc6ax.disqus.com/count.js" async></script>
-</body>
+    <head>
+            <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7GCMCZYY6E"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-7GCMCZYY6E');
+        </script>
+            <style>
+                body {
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                a {
+                    color: cornflowerblue;
+                    text-decoration: none;
+                }
+                #destinytmi h1 {
+                    font-size: 350%;
+                    text-align: center;
+                    border-bottom: 1px solid gray;
+                    margin: 0;
+                    padding: 20px;
+                }
+                #raidindex .saw {
+                    color: palevioletred;
+                }
+                #grid ul {
+                    border-right:1px solid gray;
+                    width: 120px;
+                    margin: 0;
+                    padding: 30px;
+                    }
+                body {
+                    margin: 0;
+                }
+                #grid {
+                    display: grid;
+                    grid-template-columns: 183px 1fr;
+                }
+                #grid h2 {
+                    color: gold;
+                }
+            </style>
+        <title>데스티니-리바이어던</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id="destinytmi">
+            <div id="raidindex">
+                <h1><a href="index.html" class="saw">데스티니 정보 사이트</a></h1>
+            </div>
+        </div>
+        <div id="grid">
+            <div id="raidindex">
+                <ul>
+                    <h2><a href="raid.html" class="saw">레이드</a></h2>
+                    <li><h3><a href="leviathan.html" class="saw">리바이어던</a></h3> </li>
+                    <li><h3><a href="lastwish.html" class="saw">마지막소원</a> </h3></li>
+                    <li><h3><a href="deepstone.html" class="saw">딥스톤 무덤</a></h3></li>
+                </ul>
+            </div>
+            <div>
+                <h2>리바이어던</h2><a><iframe width="560" height="315" src="https://www.youtube.com/embed/6N-mo_m3DvA?si=pG5sgKfxIqT5oIqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+                <strong><p>데스티니 가디언즈 본편에 수록된 레이드이자 목적지. 데스티니 시리즈의 첫 기갑단 레이드이기도 하다.<br><br>
+                해당 문서에서 소개되는 레이드들은 모두 함선 리바이어던 안에서 벌어지는 전투이기 때문에 리바이어던에서만 발동하는 개조부품들과 고스트 의체가 모두 적용된다.<br><br>
+                단 도전자의 의체는 슬픔의 왕관에선 적용되지 않는다.<br><br>
+                본 레이드의 컨셉은 스토리 미션에서 도미누스 가울을 쓰러뜨린 수호자들이 기갑단의 전 황제인 칼루스의 함선 리바이어던으로 초대를 받아 그가 주는 여러 시련들을 통과하는 것이다.<br><br>
+                컬렉터즈 에디션에 동봉된 기갑단 책자의 내용은 칼루스가 미래에 가울을 쓰러뜨릴 누군가에게 가울을 포함해 자신을 배신한 반역자들에 대해 설명하고,<br><br>
+                이들을 처단하면 자신이 어마어마한 부와 명예를 하사하겠다고 말하는 내용이다. <br><br>
+                그리고 마지막에는 반역자들을 쓰러뜨린 황제의 용사를 궁정, 투기장, 정원, 무기고로 가득한 함선으로 초대할 것이며 그들이 자신의 상을 받을 자격이 있을지 시험해볼 것이라고 써져 있다.<br><br></p>
+                </strong>
+                <img src="leviathan.jpg" width="300">
+            </div>
+        </div>
+        <p>
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                /*
+                var disqus_config = function () {
+                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://my-web-zt2kbsc6ax.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </p>
+        <script id="dsq-count-scr" src="//my-web-zt2kbsc6ax.disqus.com/count.js" async></script>
+    </body>
 </html>
