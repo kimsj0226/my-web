@@ -28,3 +28,15 @@ body {
     display: grid;
     grid-template-columns: 183px 1fr;
 }
+@media(max-width:1045px) {
+    #grid{
+        display: block; 
+    }
+
+    ul {
+        border-right:none;  
+    }
+    h1 {
+        border-bottom:none;
+    }
+}
