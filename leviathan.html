@@ -10,42 +10,25 @@
         gtag('config', 'G-7GCMCZYY6E');
         </script>
             <style>
-                body {
-                    font-family: Arial, Helvetica, sans-serif;
-                }
-                a {
-                    color: cornflowerblue;
-                    text-decoration: none;
-                }
-                #destinytmi h1 {
-                    font-size: 350%;
-                    text-align: center;
-                    border-bottom: 1px solid gray;
-                    margin: 0;
-                    padding: 20px;
-                }
-                #raidindex .saw {
-                    color: palevioletred;
-                }
-                #grid ul {
-                    border-right:1px solid gray;
-                    width: 120px;
-                    margin: 0;
-                    padding: 30px;
-                    }
-                body {
-                    margin: 0;
-                }
-                #grid {
-                    display: grid;
-                    grid-template-columns: 183px 1fr;
-                }
                 #grid h2 {
                     color: gold;
+                }
+                @media(max-width:1064px) {
+                #grid{
+                    display: block; 
+                }
+        
+                ul {
+                    border-right:none;  
+                }
+                h1 {
+                    border-bottom:none;
+                }
                 }
             </style>
         <title>데스티니-리바이어던</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div id="destinytmi">
