@@ -17,6 +17,7 @@ h1 {
 }
 ul {
     border-right:1px solid gray;
+    height: 100%;
     width: 120px;
     margin: 0;
     padding: 30px;
