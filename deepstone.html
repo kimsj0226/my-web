@@ -17,6 +17,7 @@
     <title>데스티니-딥스톤 무덤</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <script src="colors.js"></script>
 </head>
 <body>
     <h1><a href="index.html" class="saw">데스티니 정보 사이트</a></h1>
@@ -30,14 +31,9 @@
                 <li><h3><a href="scourgepast.html" class="saw">과거의고통</a></h3></li>
                 <li><h3><a href="deepstone.html" class="saw">딥스톤 무덤</a></h3></li>
             </ul>
-            <input type="button" value="검은색 배경" onclick="
-            document.querySelector('body').style.backgroundColor = 'black';
-            document.querySelector('body').style.color = 'white'
-            ">
-            <input type="button" value="흰색 배경" onclick="
-            document.querySelector('body').style.backgroundColor = '#f1f1f1';
-            document.querySelector('body').style.color = 'black'
-            ">
+            <input id="night_day" type="button" value="검은색 배경" onclick="
+                blackwhite(this);
+                ">
         </div>
         <div>
             <h2>딥스톤 무덤</h2>
