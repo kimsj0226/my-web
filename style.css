@@ -42,3 +42,55 @@ body {
         border-bottom:none;
     }
 }
+.weapon-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    width: 1500px;
+    text-align: center;
+}
+
+.weapon-box-header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.weapon-box-content {
+    padding: 10px;
+    display: none;
+    background-color: #fafafa;
+}
+/* style.css */
+
+/* weapon-input 내의 이미지 행에 대한 스타일 */
+#weapon-input .image-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#weapon-input .image-row a {
+    width: 48%;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#weapon-input .image-row img {
+    width: 100%;
+}
+
+#weapon-input .image-row h1 {
+    margin-top: 10px;
+}
+#무기 {
+    font-size: 60px;
+    color: navy;
+}
+#부가설명-년차-속성 {
+    font-size: 20px;
+    color: cornflowerblue;
+}

@@ -10,3 +10,11 @@ function blackwhite(self) {
             self.value = '검은색 배경';
         }
 }
+function toggleBox(element) {
+    var content = element.nextElementSibling;
+    if (content.style.display === "block") {
+        content.style.display = "none";
+    } else {
+        content.style.display = "block";
+    }
+}
