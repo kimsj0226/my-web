@@ -94,3 +94,47 @@ body {
     font-size: 20px;
     color: cornflowerblue;
 }
+
+.weapon-container {
+    display: flex;
+}
+
+.weapon-left-column, .weapon-right-column {
+    padding: 50px;
+}
+
+.weapon-left-column {
+    background-color: #f0f0f0;
+    width: 50%;
+}
+
+.weapon-right-column {
+    background-color: #666666;
+    width: 50%;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-text {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    width: 200px;
+    padding: 5px 10px;
+    font-size: 14px;
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -30px;
+    left: 190px;
+}
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}
