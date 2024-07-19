@@ -53,7 +53,7 @@ body {
 }
 
 .weapon-box-header {
-    background-color: #f2f2f2;
+    background-color: lightslategray;
     padding: 10px;
     cursor: pointer;
 }
@@ -89,10 +89,12 @@ body {
 #무기 {
     font-size: 60px;
     color: navy;
+    text-align: center;
 }
 #부가설명-년차-속성 {
     font-size: 20px;
     color: cornflowerblue;
+    text-align: center;
 }
 
 .weapon-container {
@@ -101,17 +103,45 @@ body {
 
 .weapon-left-column, .weapon-right-column {
     padding: 50px;
+    box-sizing: border-box; /* 패딩 포함한 폭 계산 */
 }
 
 .weapon-left-column {
     background-color: #666666;
     width: 50%;
+    float: left; /* 왼쪽으로 정렬 */
 }
 
 .weapon-right-column {
     background-color: #666666;
     width: 50%;
+     /* 왼쪽으로 정렬 */
+    box-sizing: border-box; /* 패딩 포함한 폭 계산 */
+    padding: 0; /* 패딩 초기화 */
+    display: flex; /* 플렉스 박스 사용 */
 }
+
+.weapon-right-left-column, .weapon-right-right-column {
+    
+    box-sizing: border-box; /* 패딩 포함한 폭 계산 */
+}
+
+.weapon-right-left-column {
+    background-color: #666666; /* 원하는 배경색으로 수정 */
+    float: right;
+    width: 55%;
+    padding: 50px; /* 패딩 추가 */
+}
+
+.weapon-right-right-column {
+    background-color: #666666; /* 원하는 배경색으로 수정 */
+    float: left;
+    width: 45%;
+    padding: 50px; /* 패딩 추가 */
+    padding-top: 66px;
+}
+
+
 .tooltip {
     position: relative;
     display: inline-block;
@@ -155,4 +185,18 @@ body {
 
 .tooltip:hover .tooltip-text {
     visibility: visible;
+}
+.picture-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.무기-설명 {
+    font-style: oblique; 
+    color: gray; text-align: center;
+}
+
+.weapon-stats-perks-masterworked {
+    font-size: 32px;
 }
